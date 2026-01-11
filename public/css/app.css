@@ -1,0 +1,52 @@
+body {
+    background: url("../img/pexels-trashphotography-32468849.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 250px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#modal {
+    display: none;
+    /** cover the whole screen */
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#open {
+    background-color: #e371a7;
+    padding: 3vh 5vw;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+    border: none;
+
+}
+
+#box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: pink;
+    border-radius: 20px;
+    padding: 100px;
+    width: 500px;
+    height: 100px;
+    margin: 100px auto;
+    color: #093188;
+}
+
+#close {
+    border-radius: 13px;
+    padding: 15px;
+    background-color: #093188;
+    color: rgb(254, 146, 164);
+    outline: none;
+    border: none;
+    padding: 3vh 4vw;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
